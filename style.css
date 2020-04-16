@@ -94,9 +94,11 @@ figcaption
 }
 ul a{
 	color: #656565;
-	margin: 20px 5px;
-	display: block;
+
 }
+li{
+    padding: 20px 5px;
+}    
 ul a:hover{
 	color: #cb09da;
 	text-decoration: none;
