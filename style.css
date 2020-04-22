@@ -9,8 +9,8 @@ body{
 .two-col{
 	padding: 15px;
 }
-.sidebar{
-
+aside{
+       position: relative;
 
 }
 .sidebar-nav{
