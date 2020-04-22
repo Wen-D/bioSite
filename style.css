@@ -1,6 +1,10 @@
 body{
 	background: black;
 }
+.two-col img,
+.four-col img{
+    border-radius: 5px;
+}	
 #container{
 	display: flex;
     flex-wrap: wrap;
@@ -131,10 +135,7 @@ figcaption{
 .col-md-6 p{
     text-align: left;	
 }
-.two-col img,
-.four-col img{
-    border-radius: 5px;
-}	
+
 
 
 
