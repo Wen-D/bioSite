@@ -108,7 +108,9 @@ ul a:hover{
 .sidebar-header{
         background-color: #FF1493;
 }
-
+nav{
+	width: 25%;
+}
 
 
 
