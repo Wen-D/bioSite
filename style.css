@@ -44,6 +44,8 @@ h1.title {
 }
 .imgheadshot img{
 	width: 400px;
+	border-radius: 1000px;
+        border: 15px solid #d3d3d3;
 }
 .imgheadshot img,
 figure img{	
