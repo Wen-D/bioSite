@@ -94,10 +94,12 @@ figcaption
 }
 ul a{
 	color: #656565;
+	letter-spacing: 1px;
 
 }
 li{
     padding: 20px 35px;
+    border-bottom: 1px solid #202226;
 }    
 ul a:hover{
 	color: #cb09da;
@@ -114,7 +116,9 @@ ul a:hover{
 nav{
 	width: 25%;
 }
-
+fa{
+    padding-right: 15px;
+}
 
 
 
