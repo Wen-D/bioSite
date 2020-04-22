@@ -121,7 +121,10 @@ nav{
 .fas{
     padding-right: 15px;
 }
-
+figcaption{
+    text-align: center;
+    padding-top: 15px;
+}
 
 
 
