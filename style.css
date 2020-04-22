@@ -131,8 +131,10 @@ figcaption{
 .col-md-6 p{
     text-align: left;	
 }
-
-
+.two-col img,
+.four-col img{
+    border-radius: 5px;
+}	
 
 
 
