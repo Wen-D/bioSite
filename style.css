@@ -151,6 +151,53 @@ ul a:hover{
 .two-col{
 	padding: 15px;
 }
+/* Mobile Responsive Styling */
+
+@media (max-width: 1410px){
+
+	h1.title{
+	    font-size: 100px;
+	}
+}
+
+@media (max-width: 1221px){
+	.col-md-9 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-top: 312px 
+		}
+
+	nav{
+		 background: black;
+		width: max-content;
+	}
+	.col-md-4.imgheadshot,
+	.col-md-8.mainheader,
+	.col-md-3.four-col{
+		width: 100%;
+		max-width: 100%
+	}
+	.imgheadshot figure,
+	.col-md-8.mainheader,
+	.col-md-3.four-col{
+		text-align: center;
+	} 
+	.col-md-3.four-col{
+		float: none;
+
+	}
+}
+@media (max-width: 578px){
+	h1.title {
+	    font-size: 60px;
+	    line-height: 70px;
+	}
+}
+
+
+
+
 
 
 
