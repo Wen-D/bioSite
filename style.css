@@ -26,6 +26,9 @@ figure img{
 /* End Image Styling */
 
 /* Nav Bar*/
+.fixed-top {
+    max-width: 25%;
+}	
 li{
     padding: 20px 35px;
     border-bottom: 1px solid #202226;
@@ -195,6 +198,8 @@ ul a:hover{
 	    line-height: 70px;
 	}
 }
+
+
 /* PLOAROIDS */
 figure{
      clear: both;
