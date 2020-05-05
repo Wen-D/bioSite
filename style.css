@@ -207,8 +207,6 @@ figure{
 }
 figure.polaroid a{
     font-weight: 300;
-    -webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
     background: rgba(255,255,255,0.93);
     float: left;
     margin: 0 auto;
@@ -223,9 +221,13 @@ figure.polaroid a{
 figure.polaroid a:after {
     content: attr(title);
     display: block;
+    clear: left;
 }
-
-
+#polaroid1 a,
+#polaroid1 figcaption{
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+}	
 
 
 
