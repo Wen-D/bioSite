@@ -222,6 +222,7 @@ figure.polaroid a:after {
     content: attr(title);
     display: block;
     clear: left;
+    padding-top: 10px;
 }
 #polaroid1 a,
 #polaroid1 figcaption{
