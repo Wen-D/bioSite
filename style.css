@@ -234,4 +234,8 @@ figure.polaroid a:after {
 -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
 }
-
+.polaroidtype2{
+   padding: 5px;
+    background: rgba(255,255,255,0.85);
+    border-radius: 2px;
+}
