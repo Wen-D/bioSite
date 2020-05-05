@@ -228,6 +228,9 @@ figure.polaroid a:after {
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
 }	
-
-
+#polaroid2 a,
+#polaroid2 figcaption{
+-webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+}
 
