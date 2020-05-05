@@ -244,7 +244,7 @@ figure.polaroid a:after {
     font-weight: 300;
     font-family: "Marker Felt", sans-serif;
     text-decoration: none;
-    color: #00;
+    color: #000;
     font-size: 16px;
     text-transform: capitalize;
     text-align: center;
@@ -258,17 +258,17 @@ figure.polaroid a:after {
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
 }	
-#polaroid4 a,
+#polaroid4,
 #polaroid4 figcaption{
 -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
 }
-#polaroid5 a,
+#polaroid5,
 #polaroid5 figcaption{
     -webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
 }	
-#polaroid6 a,
+#polaroid6,
 #polaroid6 figcaption{
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
