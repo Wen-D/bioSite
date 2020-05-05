@@ -252,6 +252,24 @@ figure.polaroid a:after {
 .polaroidtype2 img{
     border-radius: 5px;
 }
-
-
+#polaroid3,
+#polaroid3 figcaption{
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+}	
+#polaroid4 a,
+#polaroid4 figcaption{
+-webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+}
+#polaroid5 a,
+#polaroid5 figcaption{
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+}	
+#polaroid6 a,
+#polaroid6 figcaption{
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+}
 
