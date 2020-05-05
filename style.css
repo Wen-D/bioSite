@@ -220,8 +220,10 @@ figure.polaroid a{
     font-size: 16px;
     text-transform: capitalize;
 }
-
-
+figure.polaroid a:after {
+    content: attr(title);
+    display: block;
+}
 
 
 
