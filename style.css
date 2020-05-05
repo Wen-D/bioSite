@@ -205,7 +205,21 @@ figure{
      clear: both;
      display: inline-block;
 }
-
+figure.polaroid a{
+    font-weight: 300;
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    background: rgba(255,255,255,0.93);
+    float: left;
+    margin: 0 auto;
+    width: auto;
+    padding: 10px 10px 15px;
+    font-family: "Marker Felt", sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    text-transform: capitalize;
+}
 
 
 
