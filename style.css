@@ -30,7 +30,6 @@ figure img{
     max-width: 25%;
 }	
 li{
-    padding: 20px 35px;
     border-bottom: 1px solid #202226;
 }  
 nav{
@@ -112,11 +111,22 @@ figcaption
 ul a{
 	color: #656565;
 	letter-spacing: 1px;
+	padding: 20px 35px;
 
 }
 ul a:hover{
 	color: #cb09da;
 	text-decoration: none;
+	background: rgba(255,255,255,.2);
+    	-webkit-transition: background-color 2s ease-out;
+    	-moz-transition: background-color 2s ease-out;
+    	-o-transition: background-color 2s ease-out;
+    	transition: background-color 2s ease-out;
+    	-webkit-transition: background-color 300ms linear, color 1s linear;
+    	-moz-transition: background-color 300ms linear, color 1s linear;
+    	-o-transition: background-color 300ms linear, color 1s linear;
+    	-ms-transition: background-color 300ms linear, color 1s linear;
+    	transition: background-color 300ms linear, color 1s linear;
 }
 .sidebar-header{
         background-color: #FF1493;
@@ -134,12 +144,10 @@ ul a:hover{
 .two-col{
 	float: left;
 }
-
 .one-col{
 	padding: 40px;
 	clear: both;
 }
-
 .two-col{
 }
 
@@ -156,14 +164,12 @@ ul a:hover{
 	padding: 15px;
 }
 /* Mobile Responsive Styling */
-
 @media (max-width: 1410px){
 
 	h1.title{
 	    font-size: 100px;
 	}
 }
-
 @media (max-width: 1221px){
 	.col-md-9 {
 		-ms-flex: 0 0 100%;
@@ -198,7 +204,6 @@ ul a:hover{
 	    line-height: 70px;
 	}
 }
-
 
 /* PLOAROIDS */
 figure{
