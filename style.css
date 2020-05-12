@@ -112,7 +112,10 @@ ul a{
 	color: #656565;
 	letter-spacing: 1px;
 	padding: 20px 35px;
-
+	display: block;
+}
+.sidebar-header{
+	padding: 25px;
 }
 ul a:hover{
 	color: #cb09da;
