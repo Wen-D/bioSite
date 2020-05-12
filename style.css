@@ -281,4 +281,10 @@ figure.polaroid a:after {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
 }
-
+.col-md-12{
+    clear: both;
+}
+#col3pics{
+   overflow: hidden;
+   padding:20px;
+}
