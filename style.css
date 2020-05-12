@@ -288,3 +288,11 @@ figure.polaroid a:after {
    overflow: hidden;
    padding:20px;
 }
+.backtop{
+margin: 30px;
+    display: inline-block;
+    padding: 20px;
+    color: #656565;
+    text-decoration: none;
+}
+}
