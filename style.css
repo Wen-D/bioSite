@@ -289,10 +289,14 @@ figure.polaroid a:after {
    padding:20px;
 }
 .backtop{
-margin: 30px;
+    margin: 30px;
     display: inline-block;
     padding: 20px;
+}
+.backtop,
+backtop:hover{
+   
     color: #656565;
     text-decoration: none;
 }
-}
+
