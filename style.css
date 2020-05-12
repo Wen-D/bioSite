@@ -294,8 +294,7 @@ figure.polaroid a:after {
     padding: 20px;
 }
 .backtop,
-backtop:hover{
-   
+.backtop:hover{
     color: #656565;
     text-decoration: none;
 }
